@@ -11,6 +11,7 @@ void main() {
     runApp(MaterialApp(
       home: const ScoreBoardScreen(),
       theme: ThemeData.dark(),
+      debugShowCheckedModeBanner: false,
     ));
   });
 }
